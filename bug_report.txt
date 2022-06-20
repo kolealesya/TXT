@@ -1,1 +1,14 @@
-
+Bug-Report
+ID: 1,
+Summary: registration form not opening,
+Project: Name,
+Version: MacOS12.4,
+Severity: S1,
+Priority: P1,
+Status: New,
+Author: Kolegova Alesya,
+Assigned To: Full Name,
+Steps to reproduce: open the main page, click on the register button,
+Actual result: Registration form not opening,
+Expected Result: A registration form will appear,
+Attachment: links, screenshots, videos
