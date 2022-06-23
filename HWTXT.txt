@@ -1,0 +1,83 @@
+TXT
+
+1. Создать внешний репозиторий c названием TXT
+Repositories - New - Repository name - TXT - Public - Add a README file - Create repository
+
+2. Клонировать репозиторий TXT на локальный компьютер
+git clone git@github.com:kolealesya/TXT.git
+
+3. Внутри локального TXT создать файл “new.txt”
+cd TXT
+touch new.txt
+
+4. Добавить файл под гит
+git add .
+
+5. Закоммитить файл
+git commit -m "Add new.txt file"
+
+6. Отправить файл на внешний GitHub репозиторий
+git push
+
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата)
+vim new.txt
+Full Name - Kolegova Alesya
+Age - 23
+Pet - 1
+Salary - 1000
+
+8. Отправить изменения на внешний репозиторий
+git add .
+git commit -m "Add information to file"
+git push
+
+9. Создать файл preferences.txt
+touch preferences.txt
+
+10. В файл preferences.txt добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна, которую хочется посетить)
+vim preferences.txt
+Favorite Movie - Joker
+Favorite TV Series - Desperate Housewives
+Favorite Food - Pasta
+Favorite Season - Spring
+Favorite Country - Greece
+
+11. Создать файл skills.txt и добавить информацию о скиллах, которые будут изучены на курсе
+touch skills.txt
+vim skills.txt
+Skills - theory, documentation, methodologies, databases, web-technologies, mobile, devTools, SQL 
+
+12. Сделать коммит в одну строку
+git add . && git commit -m "Add preferences.txt and skills.txt files"
+
+13. Отправить сразу 2 файла на внешний репозиторий
+git push
+
+14. На веб интерфейсе создать файл bug_report.txt
+Repositories - TXT - Add file - Create new file - bug_report.txt
+
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+Commit changes
+
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт
+TXT - bug_report.txt - edit
+Bug-Report
+ID: 1,
+Summary: registration form not opening,
+Project: Name,
+Version: MacOS12.4,
+Severity: S1,
+Priority: P1,
+Status: New,
+Author: Kolegova Alesya,
+Assigned To: Full Name,
+Steps to reproduce: open the main page, click on the register button,
+Actual result: Registration form not opening,
+Expected Result: A registration form will appear,
+Attachment: links, screenshots, videos
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+Commit changes
+
+18. Синхронизировать внешний и локальный репозиторий TXT
+git pull
